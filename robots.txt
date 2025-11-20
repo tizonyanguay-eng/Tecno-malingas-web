@@ -1,0 +1,41 @@
+# Instituto San Martín de Porres
+# robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.sanmartindeporres.edu.pe/sitemap.xml
+
+# Optimizaciones de crawling
+Crawl-delay: 1
+
+# Directorios permitidos
+Allow: /assets/
+Allow: /admisiones/
+Allow: /programas/
+Allow: /noticias/
+Allow: /instalaciones/
+
+# Archivos específicos
+Allow: /index.html
+Allow: /manifest.json
+Allow: /sw.js
+
+# Bloquear archivos de desarrollo
+Disallow: /dev/
+Disallow: *.log
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /backup/
+Disallow: /temp/
+
+# Cache y archivos temporales
+Disallow: /cache/
+Disallow: *.tmp
+Disallow: *.bak
+
+# Información del sitio
+# Sitio web oficial del Instituto San Martín de Porres
+# Excelencia educativa desde 1971
+# Lima, Perú

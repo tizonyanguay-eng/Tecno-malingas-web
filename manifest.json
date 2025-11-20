@@ -1,0 +1,59 @@
+{
+  "name": "I.E.S.T.P. San Martín de Porres",
+  "short_name": "IESTP SMP",
+  "description": "Ciencia, Tecnología y Paz - Formando profesionales técnicos competentes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#003366",
+  "theme_color": "#003366",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es-PE",
+  "icons": [
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "business"],
+  "screenshots": [
+    {
+      "src": "assets/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Instituto San Martín de Porres - Vista Desktop"
+    },
+    {
+      "src": "assets/images/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Instituto San Martín de Porres - Vista Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Admisiones",
+      "short_name": "Admisiones",
+      "description": "Información sobre el proceso de admisiones",
+      "url": "/admisiones",
+      "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto",
+      "description": "Información de contacto del instituto",
+      "url": "#contacto",
+      "icons": [{ "src": "assets/images/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
